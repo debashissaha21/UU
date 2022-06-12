@@ -1,0 +1,26 @@
+name: catalog_app
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  google_fonts: ^3.0.1
+  glassmorphism: ^3.0.0
+  country_pickers: ^2.0.0
+  convex_bottom_bar: ^3.0.0
+  carousel_slider: ^4.1.1
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: true
+  assets:  
+    - assets/images/
